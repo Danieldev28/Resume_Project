@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap:,100,200,300,400,500,600,700');
+
+#title {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+
+/*--------------------------------------------Colors*/
+
+.headerbackground {
+    margin: 0;
+    background-color: #36454f;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 348px;
+    /*border:1px solid black;*/
+    transition: all .5s ease-in-out;
+
+}
+
+.name {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    height:264px;
+    padding-left:20px;
+    padding-top:64px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0rem;
+}
+
+.li-color-home {
+    background-color: #e67e22;
+}
+
+.li-color-resume {
+    background-color: #9b59b6;
+}
+
+.li-color-contact {
+    background-color: #3498db;
+
+}
+
+.li-color-download {
+    background-color: #525252;
+}
+
+.fontweigthdelete {
+    /*font-weight:0;*/
+    font-size: 0px;
+    margin: 0px;
+
+}
+
+.font-size-li {
+    font-size: 18px;
+
+}
+
+.ulmenuitem {
+    height: 85px;
+    text-align:center;
+  
+    
+}
+
+.headerpaddingleft {
+    padding-left:24px;
+    
+}
+
+.libuttonstyle {
+    display: block;
+    /*text-align:center;*/
+    color:white;
+    letter-spacing:2px;
+    text-decoration:none;
+    /*font-size: 24px;*/
+}
+
+.menuicons {
+    padding-top:20px;
+    color:white;
+    width:100%;
+   
+    
+}
+
+.menuitem  {
+   
+   
+}
+.ulmenuitem {
+    transition: all 1s ease-in-out;
+}
+
+.ulmenuitem:hover {
+    background-color:rgba(0,0,0,0.2);
+    text-decoration:none;
+    
+}
+
+.menumargin:hover{
+    text-decoration:none;
+}
+
+/*------------special paddings,margins,text*/
+h1,h2,h3,h4, {
+    margin:0;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+.general-heading {
+    font-family: "Oswald", sans-serif;
+    font-weight:300;
+    color:#fafafa;
+}
+
+footer {
+    background-color:#36454f;
+    color:#fafafa;
+    min-height:120px;
+}
+.cv-pdf i {
+    font-size:18px;
+    color:#fafafa;
+    text-align:center;
+    padding-left:5px;
+    transition: all.35s ease-in-out;
+   -moz-transition all.35s ease-in-out;
+   -webkit-transition:all.35s ease-in-out;
+   -o-transition all:all.35s ease-in-out;
+}    
+
+.cv-pdf i:hover {
+    color:#e48640;
+}
+
+.social-links {
+   /* padding-bottom:15px;*/
+}
+
+.social-links li a i {
+     width:32px;
+    height:32px;
+    border-radius:50%;
+    margin-left:5px;
+    text-align:center;
+    text-decoration: none;
+    line-height:7px;
+    color:#fafafa;
+    background-color:#8f8f8f;
+    transition: all.35s ease-in-out;
+   -moz-transition: all.35s ease-in-out;
+   -webkit-transition: all.35s ease-in-out;
+   -o-transition:all.35s ease-in-out;
+   display:inline;
+}    
+.social-links li a i:hover {
+    background:#e84610;
+}
+
+.icon-size {
+    font-size: 18px;
+}
+
+#footer-details {
+    padding:20px;
+}
+
+.hover:hover {
+    text-decoration: none;
+}
+
+/*.connect {*/
+/*    display:inline-block;*/
+/*}*/
